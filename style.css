@@ -1,0 +1,104 @@
+img{
+  height: 179px;
+  width: 277px;
+}
+div.manit img{
+  width: 150%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+html{
+  background-color: rgb(4, 2, 39);
+  color:gold;
+}.a {
+    display: flex;
+    justify-content: center;
+  }
+  .Executives,.Video-Editors,.Web-Developers,.Graphic-Designers{
+display:flex;
+flex-direction:column;
+padding-left:12rem;
+padding-right:12rem;
+  }
+  
+    .name {
+      text-align: center;
+      font-size: 3rem;
+      border: 2px solid black;
+      border-radius: 15px;
+      margin-top: 1rem;
+      margin-left: 30rem;
+      margin-right: 31rem;
+      background-color: gold;
+      color: RED;
+    }
+  
+    .name1, .name2, .name3, .name4, .name5, .name6, .name7, .name8, .name9, .name10, .name11, .name12, .name13, .name14 {
+      display: flex;
+      justify-content: space-between;
+      border: 2px solid black;
+      border-radius: 15px;
+      margin: 2rem;
+      font-size: 2rem;
+      background-color: #d550a9;
+      color: gold;
+    }
+.A, .B, .C, .D {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: -1rem;
+  background-color: #0c0101;
+}
+.name-and-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social {
+  display: flex;
+  width: 9rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 14rem;
+}
+.heading {
+  font-size: 24px;
+text-align: center;
+border: 2px solid rgb(3, 20, 39);
+border-radius: 20px;
+height: 10rem;
+width: 35rem;
+background-color: #227db3;
+color: #fbd60e;
+}
+.content {
+  font-size: 2rem;
+  text-align: center;
+  border: 2px solid red;
+  background-color: green;
+  width: 93rem;
+  margin-left: 14rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 14rem;font-size: 2rem;
+  text-align: center;
+  border: 2px solid red;
+  background-color: green;
+  width: 61rem;
+  margin-left: 14rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 14rem;
+}
+@media (max-width:1366px){
+  .name{
+    width:300.8px;
+  }
+}
+@media (max-width:1358px){
+  
+    .name1,.name2,.name3,.name4,.name5,.name6,.name7,.name8,.name9,.name10,.name11,.name12,.name13,.name14{
+    width:827.2px;
+    }
+}
